@@ -113,8 +113,12 @@ footer {
     color: #aaaaaa;
 }
 
-h1, h2 {
+h1 {
     color: white;
+}
+
+h2 {
+    color: #FFD700;
 }
 
 nav a:hover {
