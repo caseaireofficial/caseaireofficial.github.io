@@ -39,9 +39,11 @@ img{
 }
 
 .products img {
-    width: 200px;
+    width: 220px;
+    height: auto;
     margin: 10px;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .products {
@@ -68,11 +70,6 @@ img {
     text-align: center;
 }
 
-.products img {
-    width: 220px;
-    height: auto;
-}
-
 .hero {
     padding: 50px 20px;
 }
@@ -88,7 +85,7 @@ img {
 }
 
 .product-card {
-    background-color: #111;
+    background-color: #0d0d0d;
     padding: 25px;
     border-radius: 15px;
     max-width: 800px;
@@ -117,9 +114,13 @@ footer {
 }
 
 h1, h2 {
-    color: gold;
+    color: white;
 }
 
 nav a:hover {
-    color: gold;
+    color: white;
+}
+
+.hero img {
+    width: 220px;
 }
