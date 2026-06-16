@@ -248,3 +248,9 @@ nav a {
     box-shadow:0 0 15px rgba(255,255,255,0.08);
     text-align:center;
 }
+
+.gucci-gallery{
+    display:flex;
+    gap:10px;
+    overflow-x:auto;
+}
