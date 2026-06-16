@@ -159,13 +159,13 @@ section {
 }
 
 .featured-product,
-.video-section,
+.featured-videos,
 .gucci-section {
   margin: 40px auto;
 }
 
-.video-section img,
-.video-section video {
+.featured-videos img,
+.featured-videos video {
   width: 100%;
   max-width: 350px;
   margin: auto;
