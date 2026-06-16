@@ -17,7 +17,7 @@ body {
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 button {
@@ -68,6 +68,7 @@ img {
 
 .product-card {
     text-align: center;
+    max-width: 900px;
 }
 
 .hero {
@@ -127,4 +128,12 @@ nav a:hover {
 
 .hero img {
     width: 220px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 20px;
+    z-index: 1000;
 }
