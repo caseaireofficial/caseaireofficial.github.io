@@ -203,3 +203,52 @@ video::-webkit-media-controls {
 video::-webkit-media-controls-panel {
   display: none !important;
 }
+
+.product-video{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:12px;
+    display:block;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.featured-product,
+.video-section,
+.gucci-section {
+  margin: 40px auto;
+}
+
+.video-section img,
+.video-section video {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.gucci-section {
+  display: flex;
+  justify-content: center;
+}
+
+.gucci-card {
+  width: 90%;
+  max-width: 320px;
+}
+
+.about-text {
+  max-width: 500px;
+  margin: auto;
+  line-height: 1.8;
+  padding: 0 20px;
+}
+
+nav a {
+  font-size: 16px;
+  padding: 10px;
+}
