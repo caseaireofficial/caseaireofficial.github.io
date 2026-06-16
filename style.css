@@ -184,3 +184,10 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.gucci-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+}
