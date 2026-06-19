@@ -14,6 +14,10 @@
     
     <body>
         
+        <div class="cart-icon">
+            🛒 <span id="cart-count">0</span>
+        </div>
+        
         <nav>
             
             <a href="#home">Home</a>
@@ -51,16 +55,16 @@
             <div class="products">
                 <div class="product-card">
                     
-                    <img src="images/Accesorries (1).jpeg">
+                    <img src="images/Accesorries (1).jpeg" alt="Midnight Charm Wrist Strap">
                     
                     <h3>Midnight Charm Wrist Strap</h3>
                     
                     <p>₹499</p>
                     <p>Luxury black beaded phone charm with premium detailing.</p>
                     
-                    <a href="https://wa.me/919272396326">
-                        <button>Order on WhatsApp</button>
-                    </a>
+                    <button onclick="addToCart('Midnight Charm Wrist Strap',499)">
+                        Add To Cart 
+                    </button>
                 
                 </div>
                 
@@ -73,9 +77,10 @@
                     <p>₹499</p>
                     <p>Stylish handcrafted wrist strap with cute bear detailing.</p>
                     
-                    <a href="https://wa.me/919272396326">
-                        <button>Order on WhatsApp</button>
-                    </a>
+                    <button onclick="addToCart('Cocoa Bear Wrist Strap',499)">
+                        Add To Cart
+                    </button>
+                    
                 </div>
                 
                 <div class="product-card">
@@ -87,9 +92,9 @@
                     <p>₹549</p>
                     <p>Premium monochrome charm strap with statement design.</p>
                     
-                    <a href="https://wa.me/919272396326">
-                        <button>Order on WhatsApp</button>
-                    </a>
+                    <button onclick="addToCart('Leopard Luxe Wrist Strap',499)">
+                        Add To Cart
+                    </button>
                 
                 </div>
             </div>
@@ -102,6 +107,39 @@
             
             <div class="featured-product">
                 
+                <img src="Images/Dessert Tan Magsafe Case.jpg" alt="Dessert Tan Magsafe Case">
+                
+                <h2>Dessert Tan Magsafe Case</h2>
+                
+                <p>₹999</p>
+                <p>Desert Tan wrapped in a buttery-smooth finish</p>
+                
+                <button onclick="addToCart('Dessert Tan Magsafe Case',499)">
+                    Add To Cart
+                </button>
+                
+            </div>
+            
+            <div class="featured-product">
+                
+                <img src="images/Premium jute.jpg" alt="Premium Jute Case">
+                
+                <h2>Premium Jute Case</h2>
+                
+                <p>₹999</p>
+                
+                <p>Premium jute material with the Matte Textured finish.</p>
+                <p>Styled with Mandala Art Patterns for a unique and elegant look.</p>
+                
+                <button onclick="addToCart('Premium Jute Case',499)">
+                    Add To Cart
+                </button>
+                
+            </div>
+
+            
+            <div class="featured-product">
+                
                 <img src="images/APPLE 16 Pro (1).jpeg" alt="Luxury Monochrome Case">
                 <img src="images/APPLE 16 Pro (2).jpeg" alt="Luxury Monochrome Case">
                 
@@ -110,9 +148,9 @@
                 <p>₹999</p>
                 <p>Sleek monochrome design with a premium metallic finish. Built for style and protection with a luxury-inspired aesthetic.</p>
                 
-                <a href="https://wa.me/919272396326">
-                    <button>Order on WhatsApp</button>
-                    </a>
+                <button onclick="addToCart('Luxury Monochrome Case',499)">
+                        Add To Cart
+                    </button>
                 
             </div>
             
@@ -163,9 +201,9 @@
                 <p>Your search for the perfect piece ends here.</p>
                 <p>Flat 10% OFF on your first order💯</p>
                 
-                <a href="https://wa.me/919272396326" target="_blank">
-                    <button>Order on WhatsApp</button>
-                </a>
+                  <button onclick="addToCart('Gucci Wallet Case',499)">
+                        Add To Cart
+                  </button>
             
             </div>
         
@@ -175,7 +213,7 @@
         
         <p> CASEAIRE offers premium phone cases designed for style, protection, and everyday convenience. Our goal is to bring luxury-inspired designs at affordable prices.</p>
 
-        <h2>OUR!</h2>
+        <h2>Why Choose CASEAIRE?</h2>
 
         <p>✓ Premium Quality</p>
         <p> Every Caseaire order comes with a complimentary surprise😍</p>
